@@ -21,6 +21,6 @@ public class BuildScript
 
         //Write the date to a text file called "BuildDate.txt" at the selected location
         File.WriteAllText(pathalt + "BuildDate.txt", date);
-        File.Copy(pathalt + "BuildDate.txt", Application.dataPath+@"\Scripts\BuildDate.txt", true);
+        File.Copy(pathalt + "BuildDate.txt", Application.dataPath+ @"\DeeplinkExample\Scripts\BuildDate.txt", true);
     }
 }

@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: Guidedocument
   m_EditorClassIdentifier: 
   DeeplinkGuide: 
-  LongName: 
-  ShortName: 
   Icon: {fileID: 2800000, guid: e809b4ab68f4bcc42bdeb60ba69477cf, type: 3}
-  Version: 
+  sections:
+  - heading: testSection
+    text: "\uD14C\uC2A4\uD2B8 \uC139\uC158"
+    linkText: link text
+    url: https://docs.unity3d.com/kr/2021.1/Manual/enabling-deep-linking.html
+    pic: {fileID: 2800000, guid: 9e882b58df0964f5b90ff99cb481ee79, type: 3}
+  Icon2: {fileID: 2800000, guid: 5bc71472378cbe34dac58abf21846ef7, type: 3}
+  Version: 1.01
   loadedLayout: 0

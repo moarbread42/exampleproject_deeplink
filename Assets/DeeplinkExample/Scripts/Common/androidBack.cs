@@ -1,7 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class androidBack : MonoBehaviour
 {
@@ -31,9 +29,7 @@ public class androidBack : MonoBehaviour
 
     public void OnApplicationLeave()  //스티커판이 추가되면 저장여부 체크&다른 메뉴 제한 
     {
-
         Application.Quit();
-
     }
     public void PrevScene()
     {

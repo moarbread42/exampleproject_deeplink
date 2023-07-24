@@ -34,7 +34,8 @@ public class DeepLinktoScene : MonoBehaviour
         switch (buildMode)
         {
             case BuildMode.Test:
-                onDeepLinkActivated("unitydl://"+Application.productName+"?otp=");  //AndroidManifest에 있는 액티비티 명: unitydl://  //맨 처음에 빌드되는 씬: ?otp=
+                onDeepLinkActivated("unitydl://"+Application.productName+"?otp=");  
+                //AndroidManifest에 있는 액티비티 명: unitydl://  //맨 처음에 빌드되는 씬: ?otp= 일치하여야 함, 씬 이름은 필요에 따라 변경될 수 있음
                 break;
             case BuildMode.Release:
                 Application.deepLinkActivated += onDeepLinkActivated;

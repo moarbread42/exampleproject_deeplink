@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Load : MonoBehaviour
 {
-    public string SceneString;  //제일 처음 진입하는 씬의 이름-인스펙터에서 추가하거나 스크립트로 추가합니다.
+    public string SceneString;  //딥링크로 연결된 다음으로 처음 진입하는 씬의 이름-인스펙터에서 추가하거나 스크립트로 추가합니다.
     public static bool IsLoading;
 
-    public void SelectUnityScene(string SceneName)  //string
+    public void SelectUnityScene(string SceneName) 
     {
 
         SceneString = SceneName;
